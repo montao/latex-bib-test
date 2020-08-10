@@ -1,1 +1,1 @@
-$ENV{'BIBINPUTS'}='/github/workspace';
+$ENV{'BIBINPUTS'}='/github/home';
