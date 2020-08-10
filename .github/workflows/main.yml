@@ -37,6 +37,7 @@ jobs:
       with:
         # The root LaTeX file to be compiled
         root_file: doc.tex
+        args: "-bibtex -f -pdf" 
         
     - name: Archive pdf
       uses: actions/upload-artifact@v1
