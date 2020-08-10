@@ -1,1 +1,0 @@
-$ENV{'BIBINPUTS'}='/github/home';
