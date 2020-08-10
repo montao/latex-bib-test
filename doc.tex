@@ -9,6 +9,12 @@
 
 \usepackage{marvosym}       % Fuer Telefon-, Handy- und Briefsymbol
 
+\usepackage[
+	backend=biber,
+	style=numeric,
+	sorting=ynt
+	]{biblatex}
+\addbibresource{doc.bib}
 
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
@@ -18,7 +24,7 @@
 \setkomavar{fromemail}[\Email\enskip]{yogi@yosemite.com}
 \setkomavar{fromphone}[\Telefon\enskip]{112}
 \setkomavar{fromaddress}{Home}
-\addbibresource{doc.bib}
+
 %\newkomavar[Vertragsnummer]{knr}
 %\addtoreffields{knr}
 %\setkomavar{knr}{\textbf{adf24535}}
